@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojonary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <div id="nav">
+        <h1>Dojonary</h1>
+        <input type="text" name="search" placeholder="Search">
+        <button class="btn" onclick="logOut(this)">Login</button>
+    </div>
+
+    <!-- main -->
+    <div id="main">
+        <!-- left main -->
+        <div id="left-main">
+            <!-- first defiintion -->
+            <div class="definition-one">
+                <!-- MIGHT NEED TO MAKE TWO DIVS HERE WITH LINE 29 -->
+                <ul>
+                    <li><h1>ninja</h1></li>
+                    <li><p>noun</p></li>
+                    <li><p>Plural: ninjas</p></li>
+                    <li><button class="likes" onclick="alert('Ninja was liked')">13 likes</button></li>
+                </ul>
+                <ul>
+                    <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </ul>
+            </div>
+            <!-- second definition -->
+            <div class="definition-two">
+                <ul>
+                    <li><h1>ninja</h1></li>
+                    <li><p>noun</p></li>
+                    <li><p>Plural: ninjas</p></li>
+                    <li><button class="likes" onclick="alert('Ninja was liked')">37 likes</button></li>
+                </ul>
+                <p>A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+            </div>
+        </div>
+        <!-- right main -->
+        <div id="right-main">
+            <p>Dojonary is defined by <span class="bold">YOU</span></p>
+            <div class="button">
+                <button class="add-definition" onclick="hide(this)">Add Definition</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

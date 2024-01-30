@@ -1,0 +1,34 @@
+/* * {
+    margin: 0px;
+    padding: 0px;
+} */
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+.search {
+    border-radius: 12px;
+    width: 100px;
+    color: #3dadaf;
+    border: 2px solid #3dadaf;
+}
+.plus {
+    border: 1px solid #00d1b2;
+    border-radius: 50%;
+    width: 25px;
+    background-color: #00d1b2;
+    color: white
+}
+.create {
+    background-color: #2b78e4;
+    width: 150px;
+    border: 2px solid black;
+    color: white;
+    box-shadow: 5px 5px black;
+}
+.search, .create, .plus {
+    margin-bottom: 20px;
+    height: 25px;
+}

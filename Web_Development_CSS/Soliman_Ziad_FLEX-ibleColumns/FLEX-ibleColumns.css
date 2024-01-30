@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.row {
+    display: flex;
+    margin-top: 10px;
+    /* justify-content: space-between; */
+    gap: 20px;
+}
+.col {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}
+
+.col, .col-2, .col-3 {
+    padding: 20px;
+    background-color: rgb(13, 138, 138);
+    color: white;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>likes-project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- nav bar -->
+    <div id="nav">
+        <h1>Network</h1>
+    </div>
+
+    <!-- header -->
+    <div id="header">
+        <h1>Your Feed</h1>
+    </div>
+
+    <!-- main -->
+    <div id="main">
+
+        <!-- left main -->
+        <div id="left-main">
+            <img src="./icons/user-circle.png" alt="user-circle">
+            <a href="#">Add an avatar</a>
+            <h1>James Doe</h1>
+        </div>
+
+        <!-- right main -->
+        <div id="right-main">
+            <div id="box1">
+                <div class="box-header">
+                    <div class="user-name">
+                        <h1>Neil M</h1>
+                    </div>
+                    <div class="button">
+                        <p id="likes1">0 like(s)</p>
+                        <button onclick="increaseLikes('#likes1', 0)">Like</button>
+                    </div>
+                </div>
+                <p>I just set up this dicord bot, let me know what you all think. <a href="#">Link</a></p>
+            </div>
+            <div id="box2">
+                <div class="box-header">
+                    <div class="user-name">
+                        <h1>Nichole K</h1>
+                    </div>
+                    <div class="button">
+                        <p id="likes2">0 like(s)</p>
+                        <button onclick="increaseLikes('#likes2', 1)">Like</button>
+                    </div>
+                </div>
+                <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+            <div id="box3">
+                <div class="box-header">
+                    <div class="user-name">
+                        <h1>Jim R</h1>
+                    </div>
+                    <div class="button">
+                        <p id="likes3">0 like(s)</p>
+                        <button onclick="increaseLikes('#likes3', 2)">Like</button>
+                    </div>
+                </div>
+                <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

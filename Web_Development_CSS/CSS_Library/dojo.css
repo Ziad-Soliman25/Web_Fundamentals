@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: Roboto;
+}
+
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* making rows and columns that take up a specific amount of space */
+.row {
+    display: flex;
+    margin-top: 10px;
+    /* justify-content: space-between; */
+    gap: 20px; /*gap can only be used with display: flex */
+}
+.col {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+.col-3 {
+    flex: 3;
+}
+.col, .col-2, .col-3 {
+    padding: 20px;
+    background-color: rgb(13, 138, 138);
+    color: white;
+}
+
+
+/* making a nav bar */
+/* nav bar */
+.nav {
+    display: flex;
+    background-color: #333333;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+.nav-title {
+    color: white;
+    font-family: Roboto;
+}
+/* links */
+.nav-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.btn {
+    background-color: #17a2b8;
+    color: white;
+    padding: 5px 10px;
+    box-shadow: 5px 5px black;
+    font-family: Roboto;
+    font-weight: bold;
+    border: 2px solid black;
+}
+a {
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+    margin-right: 20px;
+}
+.active {
+    font-weight: bold;
+}
+
+
+/* making buttons */
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+.search {
+    border-radius: 12px;
+    width: 100px;
+    color: #3dadaf;
+    border: 2px solid #3dadaf;
+}
+.plus {
+    border: 1px solid #00d1b2;
+    border-radius: 50%;
+    width: 25px;
+    background-color: #00d1b2;
+    color: white
+}
+.create {
+    background-color: #2b78e4;
+    width: 150px;
+    border: 2px solid black;
+    color: white;
+    box-shadow: 5px 5px black;
+}
+.search, .create, .plus {
+    margin-bottom: 20px;
+    height: 25px;
+}
+
+
+/* postioning an image over an HTML */
+#message {
+    width: inherit; /*inherit just means whatever the parent dimensions are*/
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 4px 4px 4px grey;
+    /* change the position properties here */
+
+    /*fixed keeps it constantly on the page where you position it even if you scroll*/ 
+    position: fixed;
+    bottom: 80px;
+
+    /*absolute is not the best unless you know for sure the viewer is viewing it in a very specific screen size*/
+    /* position: absolute; 
+    top: 200px; */
+
+    /*relative means depending on where you are on the page how do you want the position. CAREFUL WITH THIS*/
+    /* position: relative;
+    top: 100px; */
+}

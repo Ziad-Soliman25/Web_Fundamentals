@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+/* nav bar */
+#navbar {
+    margin: 0 auto;
+}
+
+#nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    padding: 10px 100px;
+    /* padding: 10px 300px; */
+    /* margin: 0 auto; */
+}
+#nav ul, #nav a {
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    gap: 10px;
+    /* font-family: Roboto; */
+}
+.active{
+    font-weight: bold;
+}
+.btn {
+    color: white;
+    background-color: rgb(23,162,184);
+    font-family: Roboto;
+    padding: 0px 10px;
+    font-weight: bold;
+    height: 25px;
+    margin-top: 5px;
+}
+
+/* main */
+#main {
+    display: flex;
+    padding-left: 100px;
+    gap: 20px;
+}
+
+/* left main content */
+#left-main {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 10px;
+}
+
+/* usercard */
+#usercard {
+    width: 500px;
+    /* margin: 0 auto; */
+    margin-top: 20px;
+    margin-left: 175px;
+    align-items: center;
+}
+
+/* blue header */
+#blueheader {
+    background-color: #17a2b8;
+    height: 100px;
+}
+#blueheader img {
+    height: inherit;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    border-radius: 50%;
+}
+
+/* textbox */
+#textbox {
+    /* height: 170px; */
+    border-right: solid gray;
+    border-left: solid gray;
+    border-bottom: solid gray;
+    padding-top: 50px;
+}
+#textbox ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#textbox li {
+    display: flex;
+    margin-left: 30px;
+    list-style: none;
+}
+#textbox img {
+    height: 20px;
+}
+
+.icon-row {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.icon-row img {
+    margin-right: 5px;
+}
+
+/* education */
+#education {
+    width: 500px;
+    /* margin: 0 auto; */
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 175px;
+}
+#education-header {
+    background-color: black;
+    color: white;
+    padding: 10px 30px
+}
+
+#education-text {
+    border-left: solid gray;
+    border-right: solid gray;
+    border-bottom: solid gray;
+    padding: 10px 30px;
+}
+#education-text ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+#education-text ul li h4 {
+    color: gray;
+}
+
+/* right main */
+#right-main {
+    flex: 1;
+    gap: 10px;
+    margin-right: 220px;
+}
+
+/* connection-requests */
+#connection-requests {
+    margin-right: 50px;
+    width: 280px;
+}
+#connection-requests-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    color: white;
+    background-color: black;
+    height: 50px;
+}
+#connections-requests-text {
+    border-left: solid gray;
+    border-right: solid gray;
+    border-bottom: solid gray;
+    padding: 10px;
+}
+
+.bubble-number-1 {
+    background-color: rgb(204,204,204);
+    border-radius: 50%;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+    color: black;
+}
+
+.requests {
+    display: flex;
+    justify-content: space-between;
+}
+.requester img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.requester {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.requester h2 {
+    font-size: medium;
+}
+
+.accept-deny img {
+    height: 30px;
+    width: 30px;
+    margin-top: 8px;
+}
+
+/* your connections */
+#your-connections {
+    margin-right: 50px;
+    width: 280px;
+}
+
+#your-connections-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+    color: white;
+    background-color: black;
+    height: 50px;
+}
+
+.bubble-number-2 {
+    background-color: rgb(204,204,204);
+    border-radius: 50%;
+    width: 55px;
+    height: 25px;
+    /* padding-top: 5px; */
+    text-align: center;
+    color: black;
+}
+
+#connections {
+    border-right: solid gray;
+    border-bottom: solid gray;
+    border-left: solid gray;
+    padding: 10px;
+}
+
+.followers li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.followers li h2 {
+    align-items: center;
+    font-size: medium;
+}
+.followers li img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* view-more */
+#view-more {
+    border-right: solid gray;
+    border-left: solid gray;
+    border-bottom: solid gray;
+    padding: 10px;
+}
