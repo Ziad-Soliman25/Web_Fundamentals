@@ -131,3 +131,10 @@ a {
     /* position: relative;
     top: 100px; */
 }
+
+/* making a glowing box */
+.glowing {
+    -webkit-box-shadow: 0px 0px 19px 10px rgba(214, 32, 250, 0.57);
+    -moz-box-shadow: 0px 0px 19px 10px rgba(214, 32, 250, 0.57);
+    box-shadow: 0px 0px 19px 10px rgba(214, 32, 250, 0.57);
+}
